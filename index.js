@@ -1,7 +1,7 @@
 const number = Number(prompt ('Zadejte číslo:'));
 let result = '';
 
-if (number === 0) {0
+if (number === 0) {
   result = 'nula';
 } else if ((number >= 1 && number <= 10) || (number >= 19 && number <= 28)) {
   if (number % 2 === 0) {
